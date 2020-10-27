@@ -1,14 +1,17 @@
 import React, { Component } from 'react';
+import '../style/App.css';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import { Link } from 'react-router-dom';
 import Main from './Main';
 
+
 class NavBar extends Component {
   render() {
     return (
+
       <div className="demo-big-content">
         <Layout>
-          <Header title="Bryan Guilas" scroll>
+          <Header className="header-color" title="Bryan Guilas" scroll>
             <Navigation>
               <Link to="/resume">Resume</Link>
               <Link to="/aboutme">About Me</Link>
@@ -30,8 +33,16 @@ class NavBar extends Component {
           </Content>
         </Layout>
       </div >
+
     );
   }
 }
 
 export default NavBar;
+
+
+
+
+
+
+

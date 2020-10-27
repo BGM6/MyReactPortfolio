@@ -10,6 +10,4 @@ class AboutMe extends Component {
   }
 }
 
-
-
 export default AboutMe;
