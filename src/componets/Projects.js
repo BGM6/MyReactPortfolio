@@ -9,39 +9,37 @@ class Projects extends Component {
   toggleCategories() {
     if (this.state.activeTab === 0) {
       return (
-        <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+        <Card shadow={5} style={{ width: '720px', margin: 'auto' }}>
           <CardTitle style={{
             color: '#fff',
-            height: '176px',
+            height: '450px',
             background: `url(https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?ixlib=rb-1.2.1&w=1000&q=80) center / cover`
           }} ></CardTitle>
           <CardText>
             Search for recipes and the drinks to go alongside your meal with The Home Chef.
           </CardText>
           <CardActions border>
-
             <a href="https://github.com/huqian301/project-api"
               target="_blank">
-              <Button colored style={{ marginLeft: '25px' }}>Github</Button>
+              <Button colored style={{ marginLeft: '30%' }}>Github</Button>
             </a>
             <a href="https://huqian301.github.io/project-api/"
               target="_blank">
               <Button colored style={{ marginLeft: '75px' }}>Live Demo</Button></a>
-
           </CardActions>
         </Card>
       );
     } else if (this.state.activeTab === 1) {
       return (
-        <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-          <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://northernvirginiamag.com/wp-content/uploads/2020/08/movie-popcorn.jpg) center / cover' }}></CardTitle>
+        <Card shadow={5} style={{ width: '720px', margin: 'auto' }}>
+          <CardTitle style={{ color: '#fff', height: '450px', background: 'url(https://northernvirginiamag.com/wp-content/uploads/2020/08/movie-popcorn.jpg) center / cover' }}></CardTitle>
           <CardText>
             Movie information at a click of a button using the OMDB API.
         </CardText>
           <CardActions border>
             <a href="https://github.com/BGM6/movieFinderApp"
               target="_blank">
-              <Button colored style={{ marginLeft: '25px' }}>Github</Button>
+              <Button colored style={{ marginLeft: '30%' }}>Github</Button>
             </a>
             <a href="https://bgm6.github.io/movieFinderApp/"
               target="_blank">
@@ -53,15 +51,15 @@ class Projects extends Component {
     }
     else if (this.state.activeTab === 2) {
       return (
-        <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-          <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://blog.connectionsacademy.com/wp-content/uploads/note-taking-1.jpg) center / cover' }}></CardTitle>
+        <Card shadow={5} style={{ width: '720px', margin: 'auto' }}>
+          <CardTitle style={{ color: '#fff', height: '450px', background: 'url(https://blog.connectionsacademy.com/wp-content/uploads/note-taking-1.jpg) center / cover' }}></CardTitle>
           <CardText>
             A simple web app to take your notes.
         </CardText>
           <CardActions border>
             <a href="https://github.com/BGM6/noteTaker"
               target="_blank">
-              <Button colored style={{ marginLeft: '25px' }}>Github</Button>
+              <Button colored style={{ marginLeft: '30%' }}>Github</Button>
             </a>
             <a href="https://notetakerexercise.herokuapp.com/"
               target="_blank">
@@ -73,15 +71,15 @@ class Projects extends Component {
     }
     else if (this.state.activeTab === 3) {
       return (
-        <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-          <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://cdn.shopify.com/s/files/1/0101/2792/products/Under_Construction_copy_600x600_crop_center.jpg?v=1569104295) center / cover' }}></CardTitle>
+        <Card shadow={5} style={{ width: '720px', margin: 'auto' }}>
+          <CardTitle style={{ color: '#fff', height: '450px', background: 'url(https://cdn.shopify.com/s/files/1/0101/2792/products/Under_Construction_copy_600x600_crop_center.jpg?v=1569104295) center / cover' }}></CardTitle>
           <CardText>
             Coming soon...
         </CardText>
           <CardActions border>
             <a href="#"
               target="_blank">
-              <Button colored style={{ marginLeft: '25px' }}>Github</Button>
+              <Button colored style={{ marginLeft: '30%' }}>Github</Button>
             </a>
             <a href="#"
               target="_blank">
