@@ -29,9 +29,6 @@ class Projects extends Component {
               <Button colored style={{ marginLeft: '75px' }}>Live Demo</Button></a>
 
           </CardActions>
-          <CardMenu style={{ color: '#fff' }}>
-            <IconButton name="share" />
-          </CardMenu>
         </Card>
       );
     } else if (this.state.activeTab === 1) {
@@ -51,9 +48,6 @@ class Projects extends Component {
               <Button colored style={{ marginLeft: '75px' }}>Live Demo</Button></a>
 
           </CardActions>
-          <CardMenu style={{ color: '#fff' }}>
-            <IconButton name="share" />
-          </CardMenu>
         </Card >
       );
     }
@@ -74,15 +68,29 @@ class Projects extends Component {
               <Button colored style={{ marginLeft: '75px' }}>Live Demo</Button></a>
 
           </CardActions>
-          <CardMenu style={{ color: '#fff' }}>
-            <IconButton name="share" />
-          </CardMenu>
         </Card>
       );
     }
+    else if (this.state.activeTab === 3) {
+      return (
+        <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+          <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://cdn.shopify.com/s/files/1/0101/2792/products/Under_Construction_copy_600x600_crop_center.jpg?v=1569104295) center / cover' }}></CardTitle>
+          <CardText>
+            Coming soon...
+        </CardText>
+          <CardActions border>
+            <a href="#"
+              target="_blank">
+              <Button colored style={{ marginLeft: '25px' }}>Github</Button>
+            </a>
+            <a href="#"
+              target="_blank">
+              <Button colored style={{ marginLeft: '75px' }}>Live Demo</Button></a>
+          </CardActions>
+        </Card >
+      );
+    }
   }
-
-
 
   render() {
     return (
