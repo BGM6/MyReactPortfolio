@@ -13,7 +13,7 @@ class NavBar extends Component {
         <Layout>
           <Header className="header-color" title="Bryan Guilas" scroll>
             <Navigation>
-              <Link to="/resume">Resume</Link>
+              <Link to="/">Home</Link>
               <Link to="/aboutme">About Me</Link>
               <Link to="/projects">Projects</Link>
               <Link to="/contact">Contact</Link>
@@ -21,7 +21,7 @@ class NavBar extends Component {
           </Header>
           <Drawer title="Bryan Guilas">
             <Navigation>
-              <Link to="/resume">Resume</Link>
+              <Link to="/">Home</Link>
               <Link to="/aboutme">About Me</Link>
               <Link to="/projects">Projects</Link>
               <Link to="/contact">Contact</Link>
