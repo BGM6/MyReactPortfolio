@@ -101,7 +101,7 @@ class Projects extends Component {
         </Tabs>
 
         <section className="projects-grid">
-          <Grid ClassName="project-grid">
+          <Grid className="project-grid">
             <Cell col={12}>
               <div className="content">{this.toggleCategories()}</div>
             </Cell>
