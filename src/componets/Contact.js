@@ -9,7 +9,7 @@ class Contact extends Component {
           <Cell col={6}>
             <h2>Bryan Guilas</h2>
             <img
-              src="./portrait2.jpg"
+              src="https://cdn1.vectorstock.com/i/1000x1000/51/05/male-profile-avatar-with-brown-hair-vector-12055105.jpg"
               alt="avatar"
               style={{ height: '250px' }}
             />
