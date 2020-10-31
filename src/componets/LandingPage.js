@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import '../style/LandingPage.css';
 import { Grid, Cell } from 'react-mdl';
 
-
 class LandingPage extends Component {
   render() {
     return (
@@ -10,7 +9,7 @@ class LandingPage extends Component {
         <Grid className="landing-grid">
           <Cell col={12}>
             <img
-              src="https://i1.sndcdn.com/avatars-000616825032-xj10lk-t500x500.jpg"
+              src="https://cdn1.vectorstock.com/i/1000x1000/51/05/male-profile-avatar-with-brown-hair-vector-12055105.jpg"
               alt="Avatar"
               className="avatar-img"
             />

@@ -10,7 +10,8 @@ class AboutMe extends Component {
             color: '#fff',
             height: '450px',
             background:
-              'url(https://i1.sndcdn.com/avatars-000616825032-xj10lk-t500x500.jpg) center / cover'
+              'url("/portrait.jpg") center / cover',
+            borderRadius: '5px'
           }}>
             Bryan Guilas</CardTitle>
           <CardText>
